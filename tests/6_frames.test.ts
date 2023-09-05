@@ -17,7 +17,7 @@ test("interact with frames", async({page}) => {
     expect(await myFrame?.locator("p.has-text-info").textContent()).toContain("chatter");
     await page.waitForTimeout(3000);
 })
-//push1
+
 //video min 2.20
 test("frame locater", async({page}) => {
 

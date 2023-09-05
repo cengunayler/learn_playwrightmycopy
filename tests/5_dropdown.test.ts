@@ -40,7 +40,7 @@ test("Bootstrap dropdown with searchbox", async({page}) =>{
 })
 
 //gleiche test als funktion geschrieben, multiple assertion;
-//trigger_com
+
 
 test("Bootstrap dropdown Func", async({page}) =>{
 

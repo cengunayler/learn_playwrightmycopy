@@ -12,7 +12,7 @@ test("Download files", async ({ page }) => {
   
   //array consept
 
-  
+  //trigger1
   const download = await Promise.all([
     page.waitForEvent("download"),
     await page.click("#link-to-download") 
